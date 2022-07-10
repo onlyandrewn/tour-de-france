@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Cheltenham-Regular';
+    src: url('cheltenham-normal-300.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Cheltenham-Bold';
+    src: url('cheltenham-normal-700.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Franklin-Light';
+    src: url('franklin-normal-300.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Franklin-Regular';
+    src: url('franklin-normal-500.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Franklin-Bold';
+    src: url('franklin-normal-700.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Imperial-Regular';
+    src: url('imperial-normal-400.woff2') format('woff2')
+}
+
+h1 {
+    /* font-family: "Postoni-Bold"; */
+    font-family: "Cheltenham-Bold";
+    font-weight: 700;
+    /* font-style: italic; */
+    font-size: 40px;
+    margin: 0;
+    line-height: 46px;
+    color: #121212;
+    max-width: 600px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 35.2px;
+    /* font-family: "Postoni-Bold"; */
+    font-family: "Cheltenham-Bold";
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+h2.is-center {
+    text-align: center;
+}
+
+h3 {
+    /* font-size: 23.8px;
+    line-height: 33.32px; */
+    font-family: "Franklin-Bold";    
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 4px;
+    /* line-height: 23.1px; */
+    /* margin-top: 0; */
+    /* margin-bottom: 10px; */
+}
+
+.graphic__info {
+    /* max-width: 800px; */
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.graphic__subhed {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.graphic__subhed,
+.graphic__caption {
+    font-family: "Franklin-Regular";
+    color: #666;
+}
+
+.graphic__caption {
+    font-size: 13px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: "Franklin-Bold";
+}
+
+a {
+    /* border: none; */
+    /* border-bottom: 1px solid #d5d5d5; */
+    color: #326891;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.article__text {
+    font-family: "Imperial-Regular";
+    line-height: 30px;
+    /* padding-top: 24px; */
+    /* padding-bottom: 24px; */
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #2a2a2a;
+    /* margin: 0; */
+}
+
+.article__text span {
+    font-family: "Franklin-Bold";
+    border: none;
+}
+
+.article__text:last-child {
+    margin-bottom: 24px;
+}
+
+.content {
+    /* max-width: 760px; */
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.label {
+    font-size: 16px;
+    font-family: "Franklin-Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    color: #121212;
+    /* color: #1955a5; */
+    margin-top: 60px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    /* margin-bottom: 8px; */
+    /* margin-bottom: 20px; */
+}
+
+.subhed {
+    font-size: 24px;
+    font-family: "Cheltenham-Regular";
+    padding-bottom: 4px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #333;
+}
+
+.byline {
+    /* font-family: "Franklin-Light"; */
+    font-family: "Franklin-Bold";
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.byline span {
+    border-bottom: 1px solid #333;
+}
+
+/* span {
+    border-bottom: 1px solid #666;
+    color: #2a2a2a;
+} */
+
+.date {
+    color: #666;
+    font-size: 13px;
+    /* font-family: "Franklin-Light"; */
+    font-family: "Franklin-Regular";
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+img {
+    width: 100%;
+}
+
+.image__wrapper {
+    max-width: 945px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.image__caption {
+    /* font-family: "Franklin-Light"; */
+    font-family: "Imperial-Regular";
+    line-height: 1.25;
+    color: #727272;
+    margin-top: 6px;
+    text-align: left;
+    font-size: 15px;
+    max-width: 720px;
+}
+
+.image__caption span {
+    font-size: 13px;
+    text-decoration: none;
+    border: none;
+}
+
+.subtitle {
+    font-size: 17.5px;
+    line-height: 21px;
+    font-family: "Franklin-Light";
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-family: "Franklin-Light";
+}
+
+iframe {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 945px) {
+    .graphic__info,
+    .graphic__caption {
+        max-width: 600px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+/* html, body {
+    margin: 0;
+    background: beige;
+}
+
+.section {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%
+}
+
+.full-size-image {
+    padding: 15em 0;
+    background-size: cover;
+}
+
+.plot-holder {
+    margin-bottom: 1em;
+}
+
+.plot-holder .caption {
+    color: #333;
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.plot-holder h3 {
+    font-size: 2em;
+}
+
+.plot-holder .subtitle {
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
