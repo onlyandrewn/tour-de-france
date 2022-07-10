@@ -1,7 +1,7 @@
 # How has the Tour de France changed in the last 100 years?
 Cycling's premier event has become shorter, hillier and faster paced since it began more than a century ago.
 
-## DATA
+## Data
 Data analysis can be found in analysis.ipynb
 
 | Filename | Description |
@@ -63,7 +63,7 @@ Data analysis can be found in analysis.ipynb
 | birth_country | Country of birth |
 | nationality | Nationality |
 
-## RELEVANT FIGURES
+## Relevant figures
 
 ### Length of Tour de France 1903 v. 2019
 - Converted kilometers into miles by multipling by 0.621371
@@ -98,7 +98,7 @@ Data analysis can be found in analysis.ipynb
 ### BMI
 - Weight / Height ^2
 
-## CHARTS
+## Charts
 
 ### Uphill climb for Tour de France riders
 https://app.datawrapper.de/archive/team/theledeprogram/https://www.datawrapper.de/_/qLZ5i/
@@ -119,7 +119,7 @@ Horizontal bar graph: https://app.datawrapper.de/archive/team/theledeprogram/htt
 - Created two guidelines for the start and end of the pictogram and increased the size of the grouped SVGs to align with the start and endpoint of the sparkline.
 - Changed the fill of all images the middle points on the pictogram to grey
 
-## WHAT I LEARNED / CHALLENGES
+## What I learned / Challenges
 - The Tour de France website does not have an easy way to download all historical data as a CSV: https://www.letour.fr/en/history
 - The map of the full course with all the segments combined together is only available in PDF format.
 - Generic information about the route for this year's Tour can be found in a table on: https://www.letour.fr/en/overall-route
@@ -134,7 +134,7 @@ Horizontal bar graph: https://app.datawrapper.de/archive/team/theledeprogram/htt
 - The types of stages and how they are named changed over the years, which needed to be simplified for the line chart
 - Was missing data for 2018-present in some of the CSV files
 
-## OTHER NOTES
+## Other notes
 I'm still unclear in Pandas how to do the following:
 - Groupby and then filter by a specific column
 - When to use dropna in order to remove NaN values
